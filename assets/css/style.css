@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    text-align: center;
+    color: #000F08;
+    font-family: "Open Sans";
+}
+
+/*Navbar*/
+
+nav{
+    background-color: #000F08;
+    color: white;
+    text-align: left;
+    padding: 20px 120px;
+    font-size: 25px;
+}
+
+/* al poner la otra identificador que sigue se llama a la propiedad especifica*/ 
+
+nav li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 60px;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+/*Hero Sección*/
+
+header{
+    text-align: right;
+    background-image: url("../img/bg-hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 100px;
+    text-shadow: 0px 3px 6px black;
+}
+
+header h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+header h3{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+/*Ubicación*/
+
+#Ubicacion{
+    padding: 150px;
+}
+
+#Ubicacion h2{
+    font-size: 45px;
+    margin: 40px 0px 20px 0px;
+}
+
+#Ubicacion p{
+    font-size: 25px
+}
+
+/*proxima Charla*/
+
+#proxima-charla{
+    background-color: #a4452c;
+    padding: 100px;
+    color: white;
+}
+
+#proxima-charla img{
+    height: 400px;
+}
+
+#proxima-charla img, .charla-texto{
+    display:  inline-block;
+    vertical-align: middle;
+}
+
+#proxima-charla .charla-texto{
+    text-align: left;
+    width: 40%;
+    margin-left: 40px;
+}
+
+#proxima-charla .charla-texto h2{
+    font-size: 45px;
+}
+
+#proxima-charla .charla-texto h3{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+
+#proxima-charla .charla-texto h4{
+    font-size: 33px;
+}
+
+#proxima-charla .charla-texto span{
+    font-size: 20px;
+}
+
+#proxima-charla .charla-texto p{
+    font-size: 25px;
+}
+
+#proxima-charla .charla-texto h4, span, p{
+    font-weight: 400;
+}
+
+/*Eventos*/
+
+#eventos{
+    padding: 100px;
+}
+
+#eventos h2{
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+#eventos article{
+    display: inline-block;
+    margin: 0px 50px;
+    font-size: 35px;
+}
+
+#eventos article img{
+    margin-bottom: 45px;
+}
+
+/*footer*/
+
+footer{
+    background-color: #000F08;
+    color: white;
+    padding: 120px 100px 100px 100px;
+    font-size: 25px;
+}
+
+footer a{
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+footer p{
+    margin-top: 40px;
+}
+
